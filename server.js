@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const noteRoutes = require("./routes/noteRoutes");
-// const dns= require("dns")
-// dns.setServers(["8.8.8.8","8.8.4.4"])
+const dns= require("dns")
+dns.setServers(["8.8.8.8","8.8.4.4"])
 
 dotenv.config();
 
